@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondofin"
+    tools:context=".MainActivity2_fin">
+
+    <TextView
+        android:id="@+id/textView_nombrefinal"
+        android:layout_width="358dp"
+        android:layout_height="67dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="192dp"
+        android:gravity="center"
+        android:text="@string/Nombre"
+        android:textColor="#651FFF"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView_calfinal"
+        android:layout_width="358dp"
+        android:layout_height="67dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="257dp"
+        android:gravity="center"
+        android:text="@string/calificacion_actual"
+        android:textColor="#651FFF"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="180dp"
+        android:layout_height="72dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginBottom="47dp"
+        android:onClick="VolverMenu"
+        android:text="@string/volverMenu"
+        android:textSize="20sp"
+        app:backgroundTint="#651FFF" />
+</RelativeLayout>

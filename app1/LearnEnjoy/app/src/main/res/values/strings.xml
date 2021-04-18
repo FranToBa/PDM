@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Learn&amp;Enjoy</string>
+    <string name="et_n">Ingresa tu nombre</string>
+    <string name="b_cont">Contenidos</string>
+    <string name="b_prueba">Prueba</string>
+    <string name="b_calificaciones">Calificaciones</string>
+    <string name="indice_operaciones">Operaciones matemáticas</string>
+    <string name="indice_formas">Formas</string>
+    <string name="indice_cuerpo">Cuerpo</string>
+    <string name="indice_colores">Colores</string>
+    <string name="indice_animales">Animales</string>
+    <string name="Círculo">Círculo</string>
+    <string name="Cuadrado">Cuadrado</string>
+    <string name="Rectángulo">Rectángulo</string>
+    <string name="Triángulo">Triángulo</string>
+    <string name="Rombo">Rombo</string>
+    <string name="Elipse">Elipse</string>
+    <string name="Vaca">Vaca</string>
+    <string name="Cerdo">Cerdo</string>
+    <string name="Pollo">Pollo</string>
+    <string name="Perro">Perro</string>
+    <string name="Oveja">Oveja</string>
+    <string name="Caballo">Caballo</string>
+    <string name="Nombre">Nombre: </string>
+    <string name="calificacion_actual">Pregunta: 1/5 </string>
+    <string name="pregunta1">1. ¿Cúal es la siguiente parte del cuerpo? </string>
+    <string name="pregunta2">2. ¿Cúal es la siguiente forma geométrica? </string>
+    <string name="pregunta3">3. ¿Cúal es el resultado de esta operación? </string>
+    <string name="pregunta4">4. ¿Cúal es este animal? </string>
+    <string name="pregunta5">5. ¿Qué mezcla producen estos colores? </string>
+    <string name="respuesta">Respuesta</string>
+    <string name="comprobar">Comprobar</string>
+    <string name="ok">Aceptar</string>
+    <string name="volverMenu">Menú principal</string>
+    <string name="contrEx">Introduzca la contraseña para realizar el examen</string>
+    <string name="contrPro">Indroduzca la contraseña para identificarse como PROFESOR</string>
+
+
+</resources>

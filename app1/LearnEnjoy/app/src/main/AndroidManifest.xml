@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.learnenjoy">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LearnEnjoy">
+        <activity android:name=".MainActivity2_calificaciones" android:screenOrientation="portrait"></activity>
+        <activity android:name=".MainActivity_contrasena_profesor" android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivity_contrasena_examen" android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivity2_fin" android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivity2_p5" android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivity2_p4" android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivity2_p3" android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivity2_p2" android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivity2_p1" android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivity2_c_colores" android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivity2_c_animales" android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivity2_c_cuerpo" android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivity2_c_formas" android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivity2_c_operaciones" android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivity2_Indice" android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.LearnEnjoy.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
