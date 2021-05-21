@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00E676"
+    tools:context=".intermedio_ejercicios_traccion">
+
+    <LinearLayout
+        android:layout_width="146dp"
+        android:layout_height="117dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="220dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="400dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingTop="10dp">
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            app:srcCompat="@drawable/curl_biceps" />
+
+        <CheckBox
+            android:id="@+id/cb_dead_bug"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/curl_biceps" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="146dp"
+        android:layout_height="117dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="400dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingTop="10dp">
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            app:srcCompat="@drawable/encogimientos" />
+
+        <CheckBox
+            android:id="@+id/cb_encogimientos_tronco"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/encogimientos" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="146dp"
+        android:layout_height="117dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="120dp"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:paddingTop="10dp">
+
+        <ImageView
+            android:id="@+id/image_bici"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/dominadas" />
+
+        <CheckBox
+            android:id="@+id/cb_plancha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/dominadas" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="146dp"
+        android:layout_height="117dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="220dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="260dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingTop="10dp">
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            app:srcCompat="@drawable/peso_muerto" />
+
+        <CheckBox
+            android:id="@+id/cb_encogimientos_pelvis"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/peso_muerto" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="146dp"
+        android:layout_height="117dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="260dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingTop="10dp">
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            app:srcCompat="@drawable/polea_pecho" />
+
+        <CheckBox
+            android:id="@+id/cb_encogimientos_abd"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/polea_pecho" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="146dp"
+        android:layout_height="117dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="220dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="120dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingTop="10dp">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            app:srcCompat="@drawable/remo" />
+
+        <CheckBox
+            android:id="@+id/cb_plancha_lateral"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/remo" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/nombre_ejercicio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alfa_slab_one"
+        android:gravity="center"
+        android:shadowColor="@color/white"
+        android:shadowDx="4"
+        android:shadowDy="10"
+        android:shadowRadius="10"
+        android:text="@string/traccion"
+        android:textColor="#000000"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/descripcion_ejercicio"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="59dp"
+        android:gravity="center_horizontal"
+        android:text="@string/nivel_descripcion" />
+
+    <Button
+        android:id="@+id/b_finalizar"
+        android:layout_width="369dp"
+        android:layout_height="62dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="8dp"
+        android:background="#000000"
+        android:fontFamily="@font/alfa_slab_one"
+        android:onClick="ComenzarEntrenamiento"
+        android:text="@string/boton_inicio"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+</RelativeLayout>

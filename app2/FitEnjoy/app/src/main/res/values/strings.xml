@@ -1,0 +1,129 @@
+<resources>
+    <string name="app_name">Fit&amp;Enjoy</string>
+    <string name="frase_inicio">Márcate metas y luego... ¡REVIÉNTALAS!</string>
+    <string name="boton_inicio">Comenzar entrenamiento</string>
+    <string name="boton_inicio2">Últimos entrenamientos</string>
+    <string name="principiante">PRINCIPIANTE</string>
+    <string name="intermedio">INTERMEDIO</string>
+    <string name="experto">EXPERTO</string>
+    <string name="dificultad">DIFICULTAD</string>
+    <string name="dificultad_descripcion">Elige el nivel de difultad del entrenamiento</string>
+    <string name="nivel_descripcion">Elige los ejercicios a realizar durante el entrenamiento</string>
+    <string name="nivel_descripcion_indice">Elige el tipo de entrenamiento</string>
+
+    <!-- Principiante -->
+    <string name="spinning">Spinning</string>
+    <string name="descripcion_spinning">Ejercicio cardiovascular en una bicicleta estática en el que se trabaja el tren inferior: las piernas y los glúteos.</string>
+    <string name="cinta">Cinta</string>
+    <string name="descripcion_cinta">Ejercicio cardiovascular en una cinta magnética en el que se trabaja el tren inferior: las piernas y los glúteos.</string>
+    <string name="eliptica">Elíptica</string>
+    <string name="descripcion_eliptica">Ejercicio cardiovascular y aeróbico en una eliptica en el que se trabaja el tren inferior: las piernas y los glúteos. </string>
+    <string name="plancha">Plancha</string>
+    <string name="descripcion_plancha">Ejercicio anaeróbico de torso manteniendo la posición. 3 series de 30 segundos.</string>
+    <string name="sentadillas">Sentadillas</string>
+    <string name="descripcion_sentadillas">Ejercicio para desarrollar los músculos y fortalecer los tendones y los ligamentos de las piernas. Flexión de rodillas y bajar verticalmente. 4 series de 10 sentadillas.</string>
+    <string name="puente">Puente</string>
+    <string name="descripcion_puente">Ejercicio para trabajar la parte posterior de la pierna. Tumbado boca arriba con las rodillas lexionadas eleva la cadera y contrae los abdominales. 3 series de 10.</string>
+
+    <string name="traccion">Tracción</string>
+    <string name="empuje">Empuje</string>
+    <string name="pierna">Pierna</string>
+    <string name="abdominales">Abdominales</string>
+    <string name="pecho">Pecho</string>
+    <string name="espalda">Espalda</string>
+    <string name="brazo">Brazo</string>
+    <string name="hombro">Hombro</string>
+    <!-- Empuje -->
+    <string name="press_banca">Press banca</string>
+    <string name="descripcion_press_banca">Recostado sobre un banco horizontal, los brazos estirados verticalmente, con la barra cargada en las manos, el movimiento consiste en bajar la barra hasta que toque el torso (fase excéntrica) y luego subir (fase concéntrica) hasta la posición inicial. 3 series de 10 repeticiones.</string>
+    <string name="press_inclinado">Press inclinado</string>
+    <string name="descripcion_press_inclinado">Similar al press de banca estándar, con la salvedad de que en este caso la persona no se encuentra totalmente acostada boca arriba, sino que el ejercicio se hace recostado, esto es, la espalda no queda totalmente en posición horizontal. 3 series de 10 repeticiones.</string>
+    <string name="press_declinado">Press declinado</string>
+    <string name="descripcion_press_declinado">Acostado, cabeza hacia abajo, en un banco más o menos inclinado (entre 20º y 40º), pies fijos para evitar deslizamientos, asir la barra con las manos en pronación y separadas en una distancia igual o superior a la anchura de los hombros. 3 series de 10 repeticiones.</string>
+    <string name="press_militar">Press militar</string>
+    <string name="descripcion_press_militar">Levantar una barra con peso por encima de los hombros hasta superar la cabeza. 3 series de 8 repeticiones.</string>
+    <string name="elevaciones_laterales">Elevación lateral</string>
+    <string name="descripcion_elevaciones_laterales">Tomando aire elevamos las mancuernas hasta que los brazos queden alineados con los hombros y desde allí bajamos lentamente mientras exhalamos. 3 series de 8 repeticiones.</string>
+    <string name="extension_triceps">Extensión de triceps</string>
+    <string name="descripcion_extension_triceps">Levanta la mancuerna justo encima de ti extendiendo tu brazo. Contraiga el suelo pelvico y el core mientras mantiene su pecho levantado. 4 series de 8 repeticiones.</string>
+    <!-- Traccion -->
+    <string name="dominadas">Dominadas</string>
+    <string name="descripcion_dominadas">Ejercicio que consiste en levantar el cuerpo mientras este pende de una barra. Mediante diferentes agarres de las manos, se parte con los brazos estirados y solicitando la fuerza de brazos espalda y abdomen, se lleva la barbilla a la altura de la barra. 3 series de las máximas repeticiones posibles.</string>
+    <string name="remo">Remo</string>
+    <string name="descripcion_remo">Ejercicio compuesto de tipo tirón que funciona principalmente en la parte media de la espalda, pero también funciona con el lateral y los músculos de los brazos. 4 series de 10 repeticiones.</string>
+    <string name="polea_pecho">Polea al pecho</string>
+    <string name="descripcion_polea_pecho">Con la espalda recta inspiramos y tiramos de la barra mientras flexionamos los codos y los descendemos por los lados del cuerpo hasta que la barra llegue a la altura del esternón. Es decir, llevamos la polea hacia el pecho y regresamos lentamente a la posición inicial sin dejar caer el peso de manera brusca. 3 series de 12 repeticiones.</string>
+    <string name="peso_muerto">Peso muerto</string>
+    <string name="descripcion_peso_muerto">Ejercicio con pesas consiste en levantar una barra desde el suelo hasta la cintura. El peso muerto también influye en el fortalecimiento del sistema nervioso central. 4 series de 6 repeticiones.</string>
+    <string name="encogimientos">Encogimientos</string>
+    <string name="descripcion_encogimientos">Inspira y encoge los hombros hacia arriba mientras elevas los tensores pero sin movilizar los brazos. Luego desciende los hombros mientras exhalas el aire hasta que los tensores lleguen a la posición inicial. 3 series de 12 repeticiones.</string>
+    <string name="curl_biceps">Curl de biceps</string>
+    <string name="descripcion_curl_biceps">Sin movilizar el tronco y manteniendo los codos a los lados del cuerpo, debemos inspirar y flexionar los codos mientras acercamos las mancuernas al pecho y contraemos glúteos, abdominales y espinales para no mover el tronco. 4 series de 10 repeticiones.</string>
+    <!-- Pierna -->
+    <string name="sentadilla">Sentadilla</string>
+    <string name="descripcion_sentadilla">El ejercicio consiste en flexionar las rodillas y bajar el cuerpo manteniendo la verticalidad, para luego regresar a una posición erguida. 4 series de 10 repeticiones.</string>
+    <string name="prensa">Prensa</string>
+    <string name="descripcion_prensa">Empujamos la plataforma con las piernas para dejar casi extendidas las mismas. Desde allí, inspiramos y con las rodillas desbloqueadas flexionamos las piernas hasta que los muslos lleguen lo más cercano posible de la caja torácica sin sobrepasar el ángulo de 90 grados con las piernas. 4 series de 10 repeticiones.</string>
+    <string name="extension_pierna">Extensión de pierna</string>
+    <string name="descripcion_extension_pierna">Debemos inspirar y realizar una extensión de rodilla de manera de levantar el peso con las piernas hasta que éstas queden horizontales y paralelas al piso, el torso debe permanecer inmóvil y erguido. 4 series de 8 repeticiones.</string>
+    <string name="curl_femoral">Curl femoral</string>
+    <string name="descripcion_curl_femoral">Las piernas han de quedar en dirección al suelo, inspira y efectúa una flexión simultánea de las piernas intentando tocar los glúteos con los talones. Espirar al final del esfuerzo. Volver a la situación de partida controlando el movimiento. 3 series de 12 repeticiones.</string>
+    <string name="zancada">Zancada</string>
+    <string name="descripcion_zancada">Nos colocamos de pie, con las piernas abiertas al mismo ancho que los hombros. Damos un paso hacia delante con una pierna, flexionándola en ángulo de 90º y apoyando el pie delantero completamente sobre el suelo. La pierna trasera tiene que mantenerse en el sitio doblándose hasta casi llegar al suelo. 3 series de 12 repeticiones.</string>
+    <string name="abduccion_cadera">Abducción de cadera</string>
+    <string name="descripcion_abduccion_cadera">Elevamos la pierna de manera lateral. La forma de hacerlos será sin doblar la rodilla en ningún momento, sino que la pierna debe permanecer estirada en todo momento. El movimiento debe realizarse de cadera. 3 series de 15 repeticiones.</string>
+    <!-- Abdominales -->
+    <string name="plancha_abdominales">Plancha</string>
+    <string name="descripcion_plancha_abdominales">Ejercicio anaeróbico de torso manteniendo la posición. 3 series de 30 segundos.</string>
+    <string name="plancha_lateral_abdominales">Plancha lateral</string>
+    <string name="descripcion_plancha_lateral_abdominales">Ejercicio anaeróbico de torso manteniendo la posición de manea lateral. 3 series de 30 segundos.</string>
+    <string name="encogimiento_abdominales">Encogimientos</string>
+    <string name="descripcion_encogimiento_abdominales">Apoya la espalda contra el suelo, dobla las rodillas y apoya los pies sobre el suelo. Coloca las manos detrás de la cabeza mientras diriges la mirada hacia el techo. 3 series de 20 repeticiones.</string>
+    <string name="encogimiento_pelvis_abdominales">Encogimientos de pelvis</string>
+    <string name="descripcion_encogimiento_pelvis_abdominales">Con la espalda recta sobre el suelo, llevamos las piernas flexionadas hacia el pecho. 4 series de 12 repeticiones.</string>
+    <string name="encogimiento_tronco_abdominales">Encogimientos de tronco y piernas</string>
+    <string name="descripcion_encogimiento_tronco_abdominales">Con el cuerpo recto sobre el suelo como posición inicial, elevamos tronco y piernas flexionadas al mismo tiempo. 3 series de 10 repeticiones. </string>
+    <string name="dead_bug">Dead bug</string>
+    <string name="descripcion_dead_bug"> Despega la cabeza llevando la barbilla al pecho, eleva brazos y piernas y extiéndelos por completo. Ahora, baja tu pierna derecha lo más estirada posible al mismo tiempo que el brazo izquierdo va hacia atrás; mantente ahí unos segundos, regresa al centro y repite el ejercicio con el brazo y pierna contrarios. 3 series de 10 repeticiones.</string>
+    <!-- Pecho -->
+    <string name="cruces">Cruces</string>
+    <string name="descripcion_cruces">De pie, agarramos cada una de las anillas con cada mano y las bajamos hasta la altura de la cadera para nuevamente subirlas controlando el movimiento hasta la posición inicial. Es importante tener una ligera flexión de codo para evitar lesiones. 4 series de 10 repeticiones.</string>
+    <string name="pajaro_pecho">Pájaros de pectoral</string>
+    <string name="descripcion_pajaro_pecho">Con la espalda recta apoyada en la máquina, llevamos ambos brazos al centro con un movimiento circular. 4 series de 10 repeticiones.</string>
+    <string name="aperturas">Aperturas</string>
+    <string name="descripcion_aperturas">Con la espalda recta apoyada en un banco, llevamos ambos brazos al centro con un movimiento circular. 4 series de 10 repeticiones.</string>
+    <!-- Espalda -->
+    <string name="lumbares">Lumbares</string>
+    <string name="descripcion_lumbares">Con la piernas apoyadas en la máquina, ponemos la espalda recta centrando la fuerza en las lumbares. 3 series de 10 repeticiones.</string>
+    <string name="remo_mancuerna">Remo con mancuerna</string>
+    <string name="descripcion_remo_mancuerna">Ejercicio compuesto de tipo tirón que funciona principalmente en la parte media de la espalda, pero también funciona con el lateral y los músculos de los brazos. 4 series de 10 repeticiones</string>
+    <!-- Hombro -->
+    <string name="remo_cuello">Remo al cuello</string>
+    <string name="descripcion_remo_cuello">Con la barra cogida relajamos los brazos y dejamos que el peso se apoye en los muslos para inspirar y comenzar el movimiento tirando de la barra hacia el mentón mientras los codos se flexionan y pasan por los lados de la cabeza. Espiramos mientras descendemos la barra de manera controlada, evitando impulsos. 3 series de 12 repeticiones.</string>
+    <string name="elevacion_frontal">Elevación frontal</string>
+    <string name="descripcion_elevacion_frontal">Sujeta dos mancuernas delante de los muslos con las palmas mirando hacia el cuerpo. Eleva las mancuernas hacia delante y hacia el frente mientras mantienes tus manos con las palmas hacia abajo. 4 series de 8 repeticiones.</string>
+    <string name="press_militar_maquina">Press militar en máquina</string>
+    <string name="descripcion_press_militar_maquina">Levantar el peso de la máquina por encima de los hombros hasta superar la cabeza. 3 series de 8 repeticiones.</string>
+    <!-- Brazo-->
+    <string name="curl_biceps_barra">Curl de biceps con barra</string>
+    <string name="descripcion_curl_biceps_barra">Sin movilizar el tronco y manteniendo los codos a los lados del cuerpo, debemos inspirar y flexionar los codos mientras acercamos las mancuernas al pecho y contraemos glúteos, abdominales y espinales para no mover el tronco. 4 series de 10 repeticiones.</string>
+    <string name="banco_scott">Banco Scott</string>
+    <string name="descripcion_banco_scott">Este ejercicio se realiza sobre una máquina específica que tiene una zona acolchada inclinada, donde se apoyan los brazos. El agarre de la barra se realiza en supinación, de tal forma que la parte de los brazos que queda apoyada en el apoyo es la parte posterior. 3 series de 8 repeticiones.</string>
+    <string name="extension_triceps_polea">Extensión de triceps en polea</string>
+    <string name="descripcion_extension_triceps_polea">Realizamos una extensión de los codos, llevando el mango de la polea hacia abajo, sin despegar los codos de los lados del cuerpo y únicamente movilizando el antebrazo. Espiramos al final del movimiento y regresamos lentamente a la posición inicial. 4 series de 10 repeticiones.</string>
+    <string name="patada_triceps">Patada de triceps</string>
+    <string name="descripcion_patada_triceps">Tenemos que realizar extensiones de brazo manteniéndonos siempre pegados al tronco y sin mover nada más que el codo. Es importante que notemos el empuje en el tríceps ya que de esta forma lo estaremos aislando correctamente y trabajando en su totalidad. 3 series de 12 repeticiones.</string>
+
+    <string name="siguiente_ejercicio">Siguiente ejercicio</string>
+    <string name="finalizar_entrenamiento">Finalizar entrenamiento</string>
+
+    <string name="guardar_entrenamiento">Guardar entrenamiento</string>
+    <string name="volver_menu">Volver al menú principal</string>
+    <string name="ultimos_entrenamientos">Últimos entrenamientos</string>
+    <!-- Cronometro -->
+    <string name="crono_iniciar">Iniciar</string>
+    <string name="crono_parar">Parar</string>
+    <string name="crono_restablecer">Restablecer</string>
+
+
+</resources>

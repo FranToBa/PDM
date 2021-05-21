@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Fit&amp;EnjoyWearOS</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="frase_inicio">Márcate metas y luego... ¡REVIÉNTALAS!</string>
+    <string name="title_activity_entrenamiento">FitAndEnjoy</string>
+    <string name="inicio">Iniciar</string>
+    <string name="stop">STOP</string>
+    <string name="start">START</string>
+    <string name="restar">RESTART</string>
+    <string name="finalizar">FINALIZAR</string>
+
+</resources>

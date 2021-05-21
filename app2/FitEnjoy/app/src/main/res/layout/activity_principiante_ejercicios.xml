@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00E5FF"
+    tools:context=".principiante_ejercicios">
+
+    <LinearLayout
+        android:layout_width="146dp"
+        android:layout_height="117dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="220dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="400dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            app:srcCompat="@drawable/puente" />
+
+        <CheckBox
+            android:id="@+id/cb_dead_bug"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/puente" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="146dp"
+        android:layout_height="117dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="400dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            app:srcCompat="@drawable/sentadillas" />
+
+        <CheckBox
+            android:id="@+id/cb_encogimientos_tronco"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/sentadillas" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="146dp"
+        android:layout_height="117dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="120dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image_bici"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/spinning" />
+
+        <CheckBox
+            android:id="@+id/cb_plancha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/spinning" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="146dp"
+        android:layout_height="117dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="220dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="260dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            app:srcCompat="@drawable/plancha" />
+
+        <CheckBox
+            android:id="@+id/cb_encogimientos_pelvis"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/plancha" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="146dp"
+        android:layout_height="117dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="260dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            app:srcCompat="@drawable/cinta" />
+
+        <CheckBox
+            android:id="@+id/cb_encogimientos_abd"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/cinta" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="146dp"
+        android:layout_height="117dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="220dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="120dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            app:srcCompat="@drawable/eliptica" />
+
+        <CheckBox
+            android:id="@+id/cb_plancha_lateral"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/eliptica" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/nombre_ejercicio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alfa_slab_one"
+        android:gravity="center"
+        android:shadowColor="@color/white"
+        android:shadowDx="4"
+        android:shadowDy="10"
+        android:shadowRadius="10"
+        android:text="@string/principiante"
+        android:textColor="#000000"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/descripcion_ejercicio"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="59dp"
+        android:gravity="center_horizontal"
+        android:text="@string/nivel_descripcion" />
+
+    <Button
+        android:id="@+id/b_finalizar"
+        android:layout_width="369dp"
+        android:layout_height="62dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="8dp"
+        android:background="#000000"
+        android:fontFamily="@font/alfa_slab_one"
+        android:onClick="ComenzarEntrenamiento"
+        android:text="@string/boton_inicio"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+</RelativeLayout>
