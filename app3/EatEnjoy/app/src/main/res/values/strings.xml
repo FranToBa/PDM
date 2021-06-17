@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Eat&amp;Enjoy</string>
+    <string name="eat">Eat</string>
+    <string name="enjoy">Enjoy</string>
+    <string name="inicio">Comenzar</string>
+    <string name="tipo_menu">Tipo de menú</string>
+    <string name="pizzas">Pizzas</string>
+    <string name="hamburguesas">Hamburguesas</string>
+    <string name="kebabs">Kebabs</string>
+    <string name="perritos">Perritos</string>
+    <string name="menu_pequeño">Menú pequeño</string>
+    <string name="menu_mediano">Menú mediano</string>
+    <string name="menu_grande">Menú grande</string>
+    <string name="elegir_bebida">Elija la bebida</string>
+    <string name="add_carrito">Añadir al carrito</string>
+
+    <!-- Precios -->
+    <string name="precio_hamburguesas_pequeno">3.49</string>
+    <string name="precio_hamburguesas_mediano">3.99</string>
+    <string name="precio_hamburguesas_grande">4.49</string>
+
+    <string name="precio_pizzas_pequeno">4.99</string>
+    <string name="precio_pizzas_mediano">5.49</string>
+    <string name="precio_pizzas_grande">5.99</string>
+
+    <string name="precio_kebabs_pequeno">4.49</string>
+    <string name="precio_kebabs_mediano">4.99</string>
+    <string name="precio_kebabs_grande">5.49</string>
+
+    <string name="precio_perritos_pequeno">2.49</string>
+    <string name="precio_perritos_mediano">2.99</string>
+    <string name="precio_perritos_grande">3.49</string>
+
+    <!-- Titulos -->
+    <string name="menu_hamburguesas_pequeno">Menú hamburguesa pequeño</string>
+    <string name="menu_hamburguesas_mediano">Menú hamburguesa mediano</string>
+    <string name="menu_hamburguesas_grande">Menú hamburguesa grande</string>
+
+    <string name="menu_pizzas_pequeno">Menú pizza pequeño</string>
+    <string name="menu_pizzas_mediano">Menú pizza mediano</string>
+    <string name="menu_pizzas_grande">Menú pizza grande</string>
+
+    <string name="menu_kebabs_pequeno">Menú kebab pequeño</string>
+    <string name="menu_kebabs_mediano">Menú kebab mediano</string>
+    <string name="menu_kebabs_grande">Menú kebab grande</string>
+
+    <string name="menu_perritos_pequeno">Menú perrito pequeño</string>
+    <string name="menu_perritos_mediano">Menú perrito mediano</string>
+    <string name="menu_perritos_grande">Menú perrito grande</string>
+
+    <!-- Descripciones -->
+    <string name="descripcion_hamburguesas_pequeno">Hamburguesa pequeña de pollo, lechuga, mayonesa y lechuga. Patatas y bebida pequeñas.</string>
+    <string name="descripcion_hamburguesas_mediano">Hamburguesa mediana de pollo, lechuga, mayonesa y lechuga. Patatas y bebida medianas.</string>
+    <string name="descripcion_hamburguesas_grande">Hamburguesa mediana de grande, lechuga, mayonesa y lechuga. Patatas y bebida grandes.</string>
+
+    <string name="descripcion_pizzas_pequeno">Pizza pequeña de jamon york, tomate y queso. Patatas y bebida pequeñas.</string>
+    <string name="descripcion_pizzas_mediano">Pizza mediana de jamon york, tomate y queso. Patatas y bebida medianas.</string>
+    <string name="descripcion_pizzas_grande">Pizza grande de jamon york, tomate y queso. Patatas y bebida grandes.</string>
+
+    <string name="descripcion_kebabs_pequeno">Kebab pequeño de pollo, ensalada y salsa. Patatas y bebida pequeñas.</string>
+    <string name="descripcion_kebabs_mediano">Kebab mediano de pollo, ensalada y salsa. Patatas y bebida medianas.</string>
+    <string name="descripcion_kebabs_grande">Kebab grande de pollo, ensalada y salsa. Patatas y bebida grandes.</string>
+
+    <string name="descripcion_perritos_pequeno">Perrito pequeño con salchicha, queso y pepinillos. Patatas y bebida pequeñas.</string>
+    <string name="descripcion_perritos_mediano">Perrito mediano con salchicha, queso y pepinillos. Patatas y bebida medianas.</string>
+    <string name="descripcion_perritos_grande">Perrito grande con salchicha, queso y pepinillos. Patatas y bebida grandes.</string>
+
+    <string name="carrito">Carrito</string>
+    <string name="vaciar_carrito">Vaciar</string>
+    <string name="pagar">Realizar pedido</string>
+    <string name="continuar">Continuar compra</string>
+    <string name="mis_pedidos">Mis pedidos</string>
+
+
+</resources>
